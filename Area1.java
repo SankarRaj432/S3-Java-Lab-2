@@ -14,7 +14,7 @@ public class Area1{
 	public static void main(String args[]) {
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter  length and beadth of rectangle :");
+		System.out.println("Enter  length and breadth of rectangle :");
 		double length = sc.nextDouble();
 		double breadth=sc.nextDouble();
 		Area1 ob = new Area1(length,breadth);
