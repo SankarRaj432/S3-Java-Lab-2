@@ -6,14 +6,14 @@ public class Area
 	void rectcircle(double length,double breadth){
 		
 		String area=String.format("%.3f", (length*breadth));
-		System.out.println("Area of Rectange Is "+area+"");
+		System.out.println("Area of Rectange: "+area+"");
 	}
 	
 	void rectcircle(double radius){
 		
 		double pi = 3.14;
 		String area= String.format("%.3f", (pi*Math.pow(radius, 2)));
-		System.out.println("Area of Circle is "+area+"");
+		System.out.println("Area of Circle:"+area+"");
 	}
 	
 	public static void main(String[] args) {
@@ -23,6 +23,7 @@ public class Area
 		
 		System.out.println("Enter radius of circle ");
 		r =sc.nextDouble();
+
 		Area circle = new Area();
 		circle.rectcircle(r);
 
